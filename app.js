@@ -1,7 +1,7 @@
 if (process.env.NODE_ENV !="production") {
   require('dotenv').config();
 }
-
+const hostname='0.0.0.0';
 const express= require("express");
 const app= express();
 const mongoose= require("mongoose");
